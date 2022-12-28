@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta property="og:url" content="https://alansill.github.io/twitter-archive/alan_sill/status/1476949732517888010" />
+  <meta property="og:title" content="Alan Sill on Twitter (archived)" />
+  <meta property="og:description" content="The result was that RAID rebuilds triggered by the commercial storage controller got interrupted many times. (Put an asterisk here for when we figured out the real problem more than a year later. For now the system was hosed.) Many petabytes of data were rendered inaccessible. 4/" />
+  
+  
+
+  <title>The result was that RAID rebuilds triggered by the commercial storage controller got interrupted many times. (Put an asterisk here for when we figured out the real problem more than a year later. For now the system was hosed.) Many petabytes of data were rendered inaccessible. 4/</title>
+  <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+  <div class="wrapper">
+  	<div class="flex-wrap">
+      <a href="../../../">
+        <p>&larr; @alan_sill Twitter archive</p>
+      </a>
+      
+  	  <article class="tweet parent " >
+  	    <p class="display_name">
+  	      Alan Sill
+  	    </p>
+  	    <p class="user_name">
+  	      @alan_sill
+  	    </p>
+  	    <p class="full_text">
+  	      Okay, folks, in light of the unfortunate data loss at the University of Kyoto, which is not *that* unusual but is getting a lot of attention, it's time for a story, the moral of which is "back up your data" but also, don't give up in the face of at least some types of data loss.
+  	    </p>
+  	    <p class="created_at">
+  	      12/31/2021, 10:03:16 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 17</p>
+  	    <p class="retweet_count">Retweets: 2</p>
+  	    <a class="permalink" href="../1476947068874678278">link</a>
+  	  </article>
+
+
+  	  <article class="tweet parent " >
+  	    <p class="display_name">
+  	      Alan Sill
+  	    </p>
+  	    <p class="user_name">
+  	      @alan_sill
+  	    </p>
+  	    <p class="full_text">
+  	      In the Bad Old Days when we ran our own Lustre systems based on pure open source with no support, but commercial hardware, we had a power failure. I was a staff member working on a different project. The person responsible for the storage systems was out with health problems. 2/
+  	    </p>
+  	    <p class="created_at">
+  	      12/31/2021, 10:06:34 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 2</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../1476947901888745472">link</a>
+  	  </article>
+
+
+  	  <article class="tweet parent " >
+  	    <p class="display_name">
+  	      Alan Sill
+  	    </p>
+  	    <p class="user_name">
+  	      @alan_sill
+  	    </p>
+  	    <p class="full_text">
+  	      The power failure was sudden while the cluster was running at full capacity. We had a UPS but it ran down. It was the middle of a big winter storm and power came off/on repeatedly. The separate storage controller battery ran down  also and recovery got interrupted repeatedly. 3/
+  	    </p>
+  	    <p class="created_at">
+  	      12/31/2021, 10:10:23 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 2</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../1476948863021948938">link</a>
+  	  </article>
+
+
+  	  <article class="tweet  " id="main">
+  	    <p class="display_name">
+  	      Alan Sill
+  	    </p>
+  	    <p class="user_name">
+  	      @alan_sill
+  	    </p>
+  	    <p class="full_text">
+  	      The result was that RAID rebuilds triggered by the commercial storage controller got interrupted many times. (Put an asterisk here for when we figured out the real problem more than a year later. For now the system was hosed.) Many petabytes of data were rendered inaccessible. 4/
+  	    </p>
+  	    <p class="created_at">
+  	      12/31/2021, 10:13:51 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 2</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../1476949732517888010">link</a>
+  	  </article>
+
+
+  	  <article class="tweet  child" >
+  	    <p class="display_name">
+  	      Alan Sill
+  	    </p>
+  	    <p class="user_name">
+  	      @alan_sill
+  	    </p>
+  	    <p class="full_text">
+  	      When power was eventually restored, none of the file systems (home, work, or scratch) were accessible. Nothing would mount and while most RAID arrays were intact, 10 out of 78 of them were corrupt, enough to take out at least one in all file systems. We were dead in the water. 5/
+  	    </p>
+  	    <p class="created_at">
+  	      12/31/2021, 10:22:47 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 2</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../1476951983579877378">link</a>
+  	  </article>
+
+
+  	  <article class="tweet  child" >
+  	    <p class="display_name">
+  	      Alan Sill
+  	    </p>
+  	    <p class="user_name">
+  	      @alan_sill
+  	    </p>
+  	    <p class="full_text">
+  	      Got pulled into the problem as there was no one else on staff with experience working on systems at this level though as a particle physicist who used computing and not as a systems admin. Initiated a set of e2fsck repairs that got some volumes back but OSSs would still crash. 6/
+  	    </p>
+  	    <p class="created_at">
+  	      12/31/2021, 10:28:41 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 2</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../1476953465486196737">link</a>
+  	  </article>
+
+
+  	  <article class="tweet  child" >
+  	    <p class="display_name">
+  	      Alan Sill
+  	    </p>
+  	    <p class="user_name">
+  	      @alan_sill
+  	    </p>
+  	    <p class="full_text">
+  	      **Cautionary note: always always always update to the latest available version of e2fsck *before* starting any repairs, as improvements in later versions don't always work if you have tried with an earlier version. Write this down on a sticky note and put it by your screen.** 7/
+  	    </p>
+  	    <p class="created_at">
+  	      12/31/2021, 10:31:12 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 4</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../1476954100428414984">link</a>
+  	  </article>
+
+
+  	  <article class="tweet  child" >
+  	    <p class="display_name">
+  	      Alan Sill
+  	    </p>
+  	    <p class="user_name">
+  	      @alan_sill
+  	    </p>
+  	    <p class="full_text">
+  	      File Systems Repair followed. e2fsck (-n, -p, -fy) + Lots Of Patience. (e2fsck run times were often many days per pass.) I got better at looking at the output. Many times long repairs and problems were due to inodes claimed by multiple files. Decided to snipe these manually! 8/
+  	    </p>
+  	    <p class="created_at">
+  	      12/31/2021, 10:35:10 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 2</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../1476955098999894022">link</a>
+  	  </article>
+
+
+  	  <article class="tweet  child" >
+  	    <p class="display_name">
+  	      Alan Sill
+  	    </p>
+  	    <p class="user_name">
+  	      @alan_sill
+  	    </p>
+  	    <p class="full_text">
+  	      Watching the outputs with tail -f you could see the repair trying to clone a certain inode out to sometimes thousands of files. That inode was most likely the problem. Deleting it manually allowed e2fsck to run more quickly on the rest. Some file(s) would be lost but progress! 9/
+  	    </p>
+  	    <p class="created_at">
+  	      12/31/2021, 10:38:47 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 2</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../1476956008270467072">link</a>
+  	  </article>
+
+
+  	  <article class="tweet  child" >
+  	    <p class="display_name">
+  	      Alan Sill
+  	    </p>
+  	    <p class="user_name">
+  	      @alan_sill
+  	    </p>
+  	    <p class="full_text">
+  	      Ended up with mostly repaired volumes but Lustre configurations were still corrupt &amp; would not mount. OSSs would still crash on mount attempts(!). Traced this to corrupt configuration files on some volumes. What now? Turned to log_recover_lost+found, lfsck when done. Better. 10/
+  	    </p>
+  	    <p class="created_at">
+  	      12/31/2021, 10:42:16 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 2</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../1476956883437109252">link</a>
+  	  </article>
+
+
+  	  <article class="tweet  child" >
+  	    <p class="display_name">
+  	      Alan Sill
+  	    </p>
+  	    <p class="user_name">
+  	      @alan_sill
+  	    </p>
+  	    <p class="full_text">
+  	      Still some volumes were stubbornly unavailable. Decided to examine the config files and try to regenerate them with tunefs.lustre on the OSTs and selected use of the writeconf option. On healthy volumes I could reproduce the existing configurations, but not on unhealthy ones. 11/
+  	    </p>
+  	    <p class="created_at">
+  	      12/31/2021, 10:47:48 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 2</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../1476958277011492869">link</a>
+  	  </article>
+
+
+  	  <article class="tweet  child" >
+  	    <p class="display_name">
+  	      Alan Sill
+  	    </p>
+  	    <p class="user_name">
+  	      @alan_sill
+  	    </p>
+  	    <p class="full_text">
+  	      In some cases by selectively copying portions of config files from the good volumes, being careful to find sections by comparing other configs area contents for good OSTs, then doing writeconf, we were able to start up things in order and get one of the file system to mount. 12/
+  	    </p>
+  	    <p class="created_at">
+  	      12/31/2021, 10:50:59 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 2</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../1476959079629209600">link</a>
+  	  </article>
+
+
+  	  <article class="tweet  child" >
+  	    <p class="display_name">
+  	      Alan Sill
+  	    </p>
+  	    <p class="user_name">
+  	      @alan_sill
+  	    </p>
+  	    <p class="full_text">
+  	      We're now about 2 weeks into repair w/ cluster still offline. Lost so much sleep that I don't know what day it is and giving multiple reports per day to the CIO, who has sprung money for extra disks and professional support. They say they've never seen anyone recover from... 13/
+  	    </p>
+  	    <p class="created_at">
+  	      12/31/2021, 10:54:36 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 2</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../1476959987935105027">link</a>
+  	  </article>
+
+
+  	  <article class="tweet  child" >
+  	    <p class="display_name">
+  	      Alan Sill
+  	    </p>
+  	    <p class="user_name">
+  	      @alan_sill
+  	    </p>
+  	    <p class="full_text">
+  	      this level of damage and put one of their top experts on it. I explain the bit-level editing of the lfs volume config files obtained using llog_reader that we are now doing. He expresses surprise but support and makes useful suggestions. Every day we make a bit of progress. 14/
+  	    </p>
+  	    <p class="created_at">
+  	      12/31/2021, 10:59:24 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 2</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../1476961194594418691">link</a>
+  	  </article>
+
+
+  	  <article class="tweet  child" >
+  	    <p class="display_name">
+  	      Alan Sill
+  	    </p>
+  	    <p class="user_name">
+  	      @alan_sill
+  	    </p>
+  	    <p class="full_text">
+  	      I now have home back and work mostly back, but MDS crashes when particular files are accessed. No surprise that some files might be lost due to manual inode deletion to get e2fsck to work earlier, but MDS crashes? Consultant suggests quota problems, which seems worth a look. 15/
+  	    </p>
+  	    <p class="created_at">
+  	      12/31/2021, 11:02:09 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 2</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../1476961889464852482">link</a>
+  	  </article>
+
+
+  	  <article class="tweet  child" >
+  	    <p class="display_name">
+  	      Alan Sill
+  	    </p>
+  	    <p class="user_name">
+  	      @alan_sill
+  	    </p>
+  	    <p class="full_text">
+  	      A reference here: "Lustre tools for ldiskfs investigation and lightweight I/O statistics" from SCC/KIT (link:<br><a href="http://www.scc.kit.edu/scc/docs/Lustre/kit_lad15_20150922.pdf">http://www.scc.kit.edu/scc/docs/Lustre/kit_lad15_20150922.pdf</a>) in case you run into this, though recent versions of Lustre automate much of this and are far better than what we were using at the time. 16/
+  	    </p>
+  	    <p class="created_at">
+  	      12/31/2021, 11:04:43 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 2</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../1476962536012582913">link</a>
+  	  </article>
+
+
+  	  <article class="tweet  child" >
+  	    <p class="display_name">
+  	      Alan Sill
+  	    </p>
+  	    <p class="user_name">
+  	      @alan_sill
+  	    </p>
+  	    <p class="full_text">
+  	      (Parenthetical hint: mounting with abort_recov helps when trying repeatedly to bring up a volume that will otherwise trigger a recovery step. Also, don't forget the asterisk I asked you to remember above.) 17/
+  	    </p>
+  	    <p class="created_at">
+  	      12/31/2021, 11:07:43 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 2</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../1476963288806268929">link</a>
+  	  </article>
+
+
+  	  <article class="tweet  child" >
+  	    <p class="display_name">
+  	      Alan Sill
+  	    </p>
+  	    <p class="user_name">
+  	      @alan_sill
+  	    </p>
+  	    <p class="full_text">
+  	      By manually bit-editing the lfs config files to follow the pattern shown by the other volumes, we are able to get ALL VOLUMES TO MOUNT! This is an amazing day. Inventory shows 100% of home area files and 99% of work and scratch files recovered. But the story is not yet over. 18/
+  	    </p>
+  	    <p class="created_at">
+  	      12/31/2021, 11:14:51 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 2</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../1476965085297922059">link</a>
+  	  </article>
+
+
+  	  <article class="tweet  child" >
+  	    <p class="display_name">
+  	      Alan Sill
+  	    </p>
+  	    <p class="user_name">
+  	      @alan_sill
+  	    </p>
+  	    <p class="full_text">
+  	      We put the cluster back in operation, and most account holders were happy to get almost all of their files back. We put the entire system on a maintenance contract with the storage controller vendor &amp; upgraded some hardware to the latest versions. Great! But one year later... 19/
+  	    </p>
+  	    <p class="created_at">
+  	      12/31/2021, 11:17:07 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 2</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../1476965654335041543">link</a>
+  	  </article>
+
+
+  	  <article class="tweet  child" >
+  	    <p class="display_name">
+  	      Alan Sill
+  	    </p>
+  	    <p class="user_name">
+  	      @alan_sill
+  	    </p>
+  	    <p class="full_text">
+  	      during a scheduled maintenance, the **same problems** recurred after the vendor applied updates that necessitated restarting the controller. We were back to corrupted file systems and mount problems (here's where you retrieve the asterisk from above) but now we have support. 20/
+  	    </p>
+  	    <p class="created_at">
+  	      12/31/2021, 11:19:44 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 2</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../1476966312597458948">link</a>
+  	  </article>
+
+
+  	  <article class="tweet  child" >
+  	    <p class="display_name">
+  	      Alan Sill
+  	    </p>
+  	    <p class="user_name">
+  	      @alan_sill
+  	    </p>
+  	    <p class="full_text">
+  	      Here's what happened: The original problems were due to a bug in the commercial storage controller that allowed RAID rebuilds to think they were done and okay if interrupted by another failure while in progress. Remember the repeated power failures? That was the root cause. 21/
+  	    </p>
+  	    <p class="created_at">
+  	      12/31/2021, 11:22:29 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 3</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../1476967003483213825">link</a>
+  	  </article>
+
+
+  	  <article class="tweet  child" >
+  	    <p class="display_name">
+  	      Alan Sill
+  	    </p>
+  	    <p class="user_name">
+  	      @alan_sill
+  	    </p>
+  	    <p class="full_text">
+  	      All that hand editing, all the elimination of the impossible to find out what approach however unlikely, would be possible, all that work and recovery and lost sleep was caused by a controller bug. Up side: the vendor admitted the problem and credited us w/ a year of support. 22/
+  	    </p>
+  	    <p class="created_at">
+  	      12/31/2021, 11:24:48 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 2</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../1476967588416655369">link</a>
+  	  </article>
+
+
+  	  <article class="tweet  child" >
+  	    <p class="display_name">
+  	      Alan Sill
+  	    </p>
+  	    <p class="user_name">
+  	      @alan_sill
+  	    </p>
+  	    <p class="full_text">
+  	      The moral of the story as i said before is "Back Up Your Data" and don't blame the University of Kyoto for a vendor bug that was not ultimately their fault. We learned a lot in the process, and I hope others will too. And "Don't Give Up" even for tough problems. 23/23 (End.)
+  	    </p>
+  	    <p class="created_at">
+  	      12/31/2021, 11:26:35 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 4</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../1476968037618229250">link</a>
+  	  </article>
+
+
+  	  <article class="tweet  child" >
+  	    <p class="display_name">
+  	      Alan Sill
+  	    </p>
+  	    <p class="user_name">
+  	      @alan_sill
+  	    </p>
+  	    <p class="full_text">
+  	      Postscript: I am now director of the center. We have a generator, backups, improved hardware, vendor support, more file system space, and I can sleep most nights. I calculated the loss of research productivity in financial terms and used this to get these things. You do likewise.
+  	    </p>
+  	    <p class="created_at">
+  	      12/31/2021, 11:34:59 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 9</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../1476970152000425984">link</a>
+  	  </article>
+
+  	</div>
+  </div>
+</body>
+<script>
+document.getElementById('main').scrollIntoView();
+</script>
+</html>
